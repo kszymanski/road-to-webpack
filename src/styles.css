@@ -1,0 +1,12 @@
+#root {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.container {
+    padding: 50px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 35px 0px rgba(0,0,0,0.75);
+}
