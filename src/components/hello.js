@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 
 export default class Hello extends Component {
     render(){
-        return React.createElement('div',{}, 
-            React.createElement('h1', {}, "Krok 2 - Webpack"),
-            React.createElement('h2', {}, "Ta strona używa bundle"),
-            React.createElement('p', { className: 'how-to' }, "Nie wymaga konfiguracji ale ma swoje minusy...")
-            );
+        return <div>
+            <h1>Krok 3 - Webpack</h1>
+            <h2>Ta strona używa bundle i babela</h2>
+            <p className='how-to'>Wymaga konfiguracji i ma sugar syntax, ale...</p>
+        </div>
     }
 }
