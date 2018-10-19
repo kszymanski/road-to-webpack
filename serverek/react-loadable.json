@@ -1,0 +1,152 @@
+{
+  "react": [
+    {
+      "id": 0,
+      "name": "./node_modules/react/index.js",
+      "file": "app.bundle.js",
+      "publicPath": "app.bundle.js"
+    }
+  ],
+  "prop-types": [
+    {
+      "id": 1,
+      "name": "./node_modules/prop-types/index.js",
+      "file": "app.bundle.js",
+      "publicPath": "app.bundle.js"
+    }
+  ],
+  "warning": [
+    {
+      "id": 2,
+      "name": "./node_modules/history/node_modules/warning/browser.js",
+      "file": "app.bundle.js",
+      "publicPath": "app.bundle.js"
+    },
+    {
+      "id": 4,
+      "name": "./node_modules/warning/warning.js",
+      "file": "app.bundle.js",
+      "publicPath": "app.bundle.js"
+    }
+  ],
+  "invariant": [
+    {
+      "id": 3,
+      "name": "./node_modules/invariant/browser.js",
+      "file": "app.bundle.js",
+      "publicPath": "app.bundle.js"
+    }
+  ],
+  "react-loadable": [
+    {
+      "id": 5,
+      "name": "./node_modules/react-loadable/lib/index.js",
+      "file": "app.bundle.js",
+      "publicPath": "app.bundle.js"
+    }
+  ],
+  "path-to-regexp": [
+    {
+      "id": 6,
+      "name": "./node_modules/react-router/node_modules/path-to-regexp/index.js",
+      "file": "app.bundle.js",
+      "publicPath": "app.bundle.js"
+    }
+  ],
+  "object-assign": [
+    {
+      "id": 7,
+      "name": "./node_modules/object-assign/index.js",
+      "file": "app.bundle.js",
+      "publicPath": "app.bundle.js"
+    }
+  ],
+  "./cjs/react.production.min.js": [
+    {
+      "id": 8,
+      "name": "./node_modules/react/cjs/react.production.min.js",
+      "file": "app.bundle.js",
+      "publicPath": "app.bundle.js"
+    }
+  ],
+  "./factoryWithThrowingShims": [
+    {
+      "id": 9,
+      "name": "./node_modules/prop-types/factoryWithThrowingShims.js",
+      "file": "app.bundle.js",
+      "publicPath": "app.bundle.js"
+    }
+  ],
+  "./lib/ReactPropTypesSecret": [
+    {
+      "id": 10,
+      "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+      "file": "app.bundle.js",
+      "publicPath": "app.bundle.js"
+    }
+  ],
+  "isarray": [
+    {
+      "id": 11,
+      "name": "./node_modules/react-router/node_modules/isarray/index.js",
+      "file": "app.bundle.js",
+      "publicPath": "app.bundle.js"
+    }
+  ],
+  "./src/index.js": [
+    {
+      "id": 12,
+      "name": "./src/index.js",
+      "file": "app.bundle.js",
+      "publicPath": "app.bundle.js"
+    }
+  ],
+  "../components/hello.js": [
+    {
+      "id": 18,
+      "name": "./src/components/hello.js",
+      "file": "home.bundle.js",
+      "publicPath": "home.bundle.js"
+    }
+  ],
+  "../components/bay.js": [
+    {
+      "id": 19,
+      "name": "./src/components/bay.js",
+      "file": "bay.bundle.js",
+      "publicPath": "bay.bundle.js"
+    }
+  ],
+  "./cjs/react-dom.production.min.js": [
+    {
+      "id": 14,
+      "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+      "file": "vendors~react.bundle.js",
+      "publicPath": "vendors~react.bundle.js"
+    }
+  ],
+  "schedule": [
+    {
+      "id": 15,
+      "name": "./node_modules/schedule/index.js",
+      "file": "vendors~react.bundle.js",
+      "publicPath": "vendors~react.bundle.js"
+    }
+  ],
+  "./cjs/schedule.production.min.js": [
+    {
+      "id": 16,
+      "name": "./node_modules/schedule/cjs/schedule.production.min.js",
+      "file": "vendors~react.bundle.js",
+      "publicPath": "vendors~react.bundle.js"
+    }
+  ],
+  "react-dom": [
+    {
+      "id": 17,
+      "name": "./node_modules/react-dom/index.js",
+      "file": "vendors~react.bundle.js",
+      "publicPath": "vendors~react.bundle.js"
+    }
+  ]
+}
