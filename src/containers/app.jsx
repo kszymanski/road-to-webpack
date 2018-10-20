@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
+import {hot} from 'react-hot-loader';
 
-import Hello from '../components/hello.js';
+import Hello from '../components/hello';
 
-export default class App extends Component {
+class App extends Component {
     render(){
         return <div className='container'>
             <Hello />
         </div>;
     }
 }
+
+export default hot(module)(App)

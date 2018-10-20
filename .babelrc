@@ -1,6 +1,11 @@
 {
     "presets": [
-        "@babel/env",
+        ["@babel/env", {
+            "targets": {
+                "browsers": "last 2 versions, not dead"
+              }
+        }],
         "@babel/react"
-    ]
+    ],
+    "plugins": ["react-hot-loader/babel"]
 }
