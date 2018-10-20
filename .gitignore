@@ -72,5 +72,8 @@ typings/
 # Serverless directories
 .serverless
 
+# Webpack
+stats.json
+
 # Artefact
 dist/
