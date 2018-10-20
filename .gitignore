@@ -77,3 +77,4 @@ stats.json
 
 # Artefact
 dist/
+gulpDist/
