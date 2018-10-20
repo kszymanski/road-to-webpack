@@ -1,0 +1,51 @@
+.application {
+    display: grid;
+    grid-template-rows: 50px 1fr;
+    grid-template-columns: 0.25fr 1fr 0.25fr;
+    grid-row-gap: 55px;
+    .nav {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row: 1;
+        width: 100%;
+        border-bottom: 1px solid black;
+        box-shadow: -1px 4px 8px -2px rgba(0,0,0,0.75);
+        ul {
+            display: flex;
+            height: 100%;
+            width: 80%;
+            margin: 0 auto;
+            align-items: center;
+            li {
+                margin-right: 15px;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                a {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 15px;
+                    height: 100%;
+                    color: #0B1B3F;
+                    text-decoration: none;
+                    transition: all 0.2s ease-out;
+                    &:hover {
+                        color: #8091B9;
+                    }
+                    &.active{
+                        background-color: #8091B9;
+                        &:hover {
+                            color: #0B1B3F;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .container {
+        grid-column: 2;
+        grid-row:2;
+        width: 100%;
+    }
+}

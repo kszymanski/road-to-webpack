@@ -61,6 +61,7 @@ const config = (env, options) => {
         devtool: devMode ? 'cheap-eval-source-map' : 'cheap-source-map',
         devServer: {
             port: 3000,
+            historyApiFallback: true,
             overlay: true
         }
     }

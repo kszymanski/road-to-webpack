@@ -7,5 +7,5 @@
         }],
         "@babel/react"
     ],
-    "plugins": ["react-hot-loader/babel"]
+    "plugins": ["@babel/plugin-syntax-dynamic-import", "react-hot-loader/babel"]
 }
