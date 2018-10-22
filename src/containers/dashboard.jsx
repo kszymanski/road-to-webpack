@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+import { hot } from 'react-hot-loader';
 
-export default class Hello extends Component {
+class Dashboard extends Component {
     render(){
         return (
             <div className='dashboard'>
@@ -10,3 +11,4 @@ export default class Hello extends Component {
     }
 }
 
+export default hot(module)(Dashboard);

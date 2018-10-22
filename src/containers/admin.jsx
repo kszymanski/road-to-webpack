@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+import { hot } from 'react-hot-loader';
 
-export default class Hello extends Component {
+class Admin extends Component {
     constructor(props){
         super(props);
         this.state = {
@@ -31,3 +32,5 @@ export default class Hello extends Component {
         );
     }
 }
+
+export default hot(module)(Admin);
