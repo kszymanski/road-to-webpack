@@ -1,6 +1,7 @@
 # Road to webpack Step-1 sample project
 
 This projects works in Chrome browser without building.
+[Link do prezentacji](https://kamilekinthecloud.pl/wp-content/uploads/2018/10/Pod-mask%C4%85-create-react-app.pdf)
 
 ### Requirements
 
