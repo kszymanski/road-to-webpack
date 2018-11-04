@@ -1,4 +1,5 @@
 # Road to webpack Step-2 Webpack
+[Slides](https://kamilekinthecloud.pl/wp-content/uploads/2018/10/Pod-mask%C4%85-create-react-app.pdf)
 
 This projects works with simple script bundling done by webpack without any configuration.
 
