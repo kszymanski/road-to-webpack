@@ -1,6 +1,7 @@
-# Road to webpack Step-2 Webpack
+# Road to webpack Step-5 Gulp
+[Slides](https://kamilekinthecloud.pl/wp-content/uploads/2018/10/Pod-mask%C4%85-create-react-app.pdf)
 
-This projects works with simple script bundling done by webpack without any configuration.
+This projects works with simple script bundling done by webpack and dev server by webpack-dev-server.
 
 ### Requirements
 
@@ -13,10 +14,6 @@ This projects works with simple script bundling done by webpack without any conf
 First command line window:
 ```sh
 yarn install
-yarn watch
-```
-Second comand line window:
-```sh
 yarn start
 ```
 
@@ -25,7 +22,13 @@ First command line window:
 ```sh
 yarn install
 yarn bundle
-yarn start
 ```
 
-Open website in Chrome [localhost:8080](http://127.0.0.1:8080)
+#### Use it with gulp
+First command line window:
+```sh
+yarn install
+yarn gulp
+```
+
+Open website in Chrome [localhost:3000](http://127.0.0.1:3000)
